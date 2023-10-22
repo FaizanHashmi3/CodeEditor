@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(31, 105, 145);
+}
+
+.code-editor {
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    /* padding: 20px; */
+    border-radius: 8px;
+    
+    background-color:rgb(14, 84, 122);
+    /* border: 1px solid #ccc; */
+}
+
+.code-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.code-button {
+    padding: 5px 10px;
+    margin: 7px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.code-button:hover {
+    background-color: #0056b3;
+}
+
+.code-input {
+    width: 99.70%;
+    height: 500px;
+    font-family: 'Courier New', monospace;
+    font-size: larger;
+    font-weight:bold;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   
+    
+    
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #22222f;
+    color: #c1d245;
+}
+
+/* Light Theme */
+.light-theme {
+    background-color: antiquewhite;
+    color: #0d0c0c;
+}
